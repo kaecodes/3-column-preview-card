@@ -83,3 +83,31 @@
 .luxury-btn {
   color: var(--very-dark-cyan); 
 }
+
+/* Media Queries */
+
+@media (min-width: 1440px) {
+
+  .main-container {
+    height: 100vh;
+  }
+  .card-container {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sedans, .suvs, .luxury {
+    font-size: 16px; 
+  }
+
+  .sedans {
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .luxury {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
